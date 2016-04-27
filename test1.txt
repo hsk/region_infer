@@ -1,0 +1,5 @@
+let one : (int -> int) -> int -> int
+        := ^x : int -> int. ^y : int. x y in
+let two : (int -> int) -> int -> int
+        := ^x : int -> int. ^y : int. x (x y) in
+one
